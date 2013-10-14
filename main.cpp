@@ -15,7 +15,7 @@ int main()
      getline(cin, strInput);
      stringstream myStream(strInput);
      if ( (myStream >> upperLimit) ){
-         cout<<"Please enter  an integer that is less than the upperLimit for the kth back.\n";
+         cout<<"Please enter an integer that is less than the upperLimit for the kth back.\n";
          getline(cin, strInput);
          stringstream myStream(strInput);
          if ( (myStream >> kthBack) ){
