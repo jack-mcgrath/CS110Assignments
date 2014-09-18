@@ -54,7 +54,7 @@ int findPrimes (int &upperLimit, int &kthBack)
 
           if (primes[i]!=1) {
               for (k = i * i; k <= upperLimit; k = k + i ) { //i*i so that the prime # itself is not counted as nonprime
-                    primes[k] = 0;                       // k=k+i so add
+                    primes[k] = 0;                       // k=k+i so add haha what?
                   }
                 }
           if(primes[i]!=0){
